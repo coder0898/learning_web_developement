@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding Workshop Registration Form</title>
+  </head>
+  <body>
+    <main>
+      <h1>Coding Workshop Registration Form</h1>
+      <section>
+        <form>
+          <label for="firstName">First Name</label>
+          <input
+            type="text"
+            name="firstName"
+            id="firstName"
+            placeholder="eg. John"
+          /><br />
+          <label for="lastName">Last Name</label>
+          <input
+            type="text"
+            name="lastName"
+            id="lastName"
+            placeholder="eg. Pandey"
+          /><br />
+          <label for="userEmail">Email</label>
+          <input
+            type="email"
+            name="userEmail"
+            id="userEmail"
+            placeholder="eg. john.pandey@example.com"
+          /><br />
+          <label for="phone">Phone Number</label>
+          <input
+            type="number"
+            name="phone"
+            id="phone"
+            placeholder="eg. 123-456-7890"
+          /><br />
+          <label for="workshop">Select Workshop</label>
+          <select name="workshop" id="workshop">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="ReactJS">ReactJs</option></select
+          ><br />
+          <label for="reason">Reason to Join</label>
+          <textarea name="reason" id="reason"></textarea><br />
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
