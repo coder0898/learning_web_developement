@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; Good practice */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: hsl(
+    210,
+    20%,
+    98%
+  ); /* Softer, slightly cooler neutral background */
+  color: hsl(
+    210,
+    10%,
+    20%
+  ); /* Dark gray body text instead of harsh pure black */
+  line-height: 1.6; /* Comfortable reading space for paragraphs */
+  padding: 40px; /* Give the page some breathing room */
+}
+
+h1 {
+  font-size: 32px;
+  color: hsl(210, 80%, 40%); /* A more professional, sophisticated deep blue */
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  color: hsl(260, 50%, 45%); /* A softer, muted purple */
+  font-weight: 600;
+  margin-top: 25px;
+}
+
+.skill {
+  font-weight: 700;
+  color: hsl(260, 70%, 35%);
+}
